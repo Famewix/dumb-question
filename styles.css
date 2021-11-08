@@ -1,0 +1,21 @@
+:root {
+  --option-bg: rgb(224, 236, 255);
+}
+
+#arrow-img {
+  width: 300px;
+}
+
+li {
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: var(--option-bg);
+  animation: mymove 0.5s;
+}
+
+@keyframes mymove {
+  from {background-color: white;}
+  to {background-color: var(--option-bg);}
+}
