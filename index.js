@@ -42,6 +42,5 @@ for (let i = 0; i < option_tags.length; i++) {
   option_tags[i].onmouseover = function () {
     let hoveredOption = option_tags[i].innerHTML.toLowerCase();
     currentDir = changeImage(hoveredOption);
-    console.log(currentDir);
   };
 }
